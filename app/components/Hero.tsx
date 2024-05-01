@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -9,12 +10,12 @@ import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import Link from "next/link";
 
-interface Options{
-  strings: string[],
-  autoStart: boolean,
-  loop: boolean,
-  pauseFor: number,
-  cursor: string
+interface Options {
+  strings: string[];
+  autoStart: boolean;
+  loop: boolean;
+  pauseFor: number;
+  cursor: string;
 }
 
 const Hero = () => {
