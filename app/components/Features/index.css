@@ -1,0 +1,8 @@
+.retro-card{
+    border: solid 0.25rem black;
+    box-shadow: 1rem 1rem 0 -0.25rem #ceeef8, 1rem 1rem 0 0 black;
+    transition: 0.1s box-shadow;
+  }
+  .retro-card:hover{
+    box-shadow: 0.5rem 0.5rem 0 -0.25rem #ceeef8, 0.5rem 0.5rem 0 0 black;
+  }
