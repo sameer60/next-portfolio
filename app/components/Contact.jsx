@@ -100,7 +100,7 @@ const Contact = () => {
             <button
               type="submit"
               onClick={handleSendMessage}
-              className="text-white font-bold bg-[#111827] border-0 py-3 px-7 focus:outline-none hover:bg-[#2c3548] rounded-xl text-lg"
+              className="text-white font-bold bg-[#0a0a0a] border-0 py-3 px-7 focus:outline-none hover:bg-[#181a1e] rounded-xl text-lg"
             >
               Send message
             </button>

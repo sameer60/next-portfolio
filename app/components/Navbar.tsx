@@ -16,16 +16,18 @@ const Navbar = () => {
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link
             href="/uses"
-            className="mr-5 text-gray-600 font-semibold text-lg cursor-pointer hover:text-gray-900"
+            className="mr-5 text-gray-900 font-semibold text-lg cursor-pointer group transition duration-300"
           >
-            Uses
+            /uses
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-800"></span>
           </Link>
           <a
-            className="mr-5 text-gray-600 font-semibold text-lg cursor-pointer hover:text-gray-900"
-            href="/Resume.pdf" // Replace this with the actual path to your resume file
-            download="resume.pdf" // Specify the desired filename for the downloaded file
+            className="mr-5 cursor-pointer group transition duration-300 text-white bg-[#050708] hover:bg-[#050708]/80 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#050708]/40 dark:focus:ring-gray-600 me-2 mb-2"
+            href="/Resume.pdf"
+            download="resume.pdf"
           >
-            Resume
+            resume
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-800"></span>
           </a>
         </nav>
       </div>
