@@ -37,17 +37,20 @@ const Projects = () => {
             </div>
             <div className="p-4 w-full md:w-1/2">
               <div className="h-full bg-white overflow-hidden shadow-xl hover:-translate-y-1 transition cursor-pointer rounded-lg">
-                <Link href="https://sameer-job-app.vercel.app/" target="_blank">
+                <Link
+                  href="https://get-current-weather.vercel.app/"
+                  target="_blank"
+                >
                   <div className="mockup-browser border bg-base-300">
                     <div className="mockup-browser-toolbar">
                       <div className="input">
-                        https://sameer-jobby-app.vercel.app
+                        https://get-current-weather.vercel.app/
                       </div>
                     </div>
                     <div className="flex justify-center bg-base-200">
                       <img
                         className="w-full object-cover object-center"
-                        src="https://res.cloudinary.com/didtdrgsj/image/upload/v1711731529/Screenshot_from_2024-03-29_22-25-13_krjtot.png"
+                        src="https://res.cloudinary.com/didtdrgsj/image/upload/v1715391061/Screenshot_from_2024-05-11_06-49-41_ntbavf.png"
                         alt="blog"
                       />
                     </div>

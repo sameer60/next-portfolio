@@ -25,17 +25,6 @@ const Hero = () => {
         <div className="container mx-auto flex px-5 pt-4 mt-4 md:flex-row flex-col-reverse items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl md:text-6xl text-3xl mb-4 text-[#000] font-bold">
-              {/* <Typewriter
-                options={{
-                  strings: [
-                    "Proficient in Designing Elegant and High-end User Interfaces.",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  pauseFor: 20000,
-                  cursor: "",
-                }}
-              /> */}
               Proficient in Designing Elegant and High-end User Interfaces.
             </h1>
             <p className="mb-8 leading-relaxed font-semibold">
