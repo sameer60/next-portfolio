@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { FaCode } from "react-icons/fa";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -26,7 +27,7 @@ const Navbar = () => {
             href="/Resume.pdf"
             download="resume.pdf"
           >
-            resume
+            resume &nbsp; <MdOutlineFileDownload />
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-gray-800"></span>
           </a>
         </nav>
