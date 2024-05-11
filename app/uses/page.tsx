@@ -172,7 +172,7 @@ const Uses = () => {
             <ul className="list-disc list-inside">
               <li className="font-medium">Asus Vivobook 16x</li>
               <li className="font-medium">Ipad 9th gen</li>
-              <li className="font-medium">Redmi K20 Pro</li>
+              <li className="font-medium">Samsung Galaxy F15</li>
             </ul>
           </div>
         </div>
