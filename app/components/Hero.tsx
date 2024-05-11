@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-20 mx-auto">
             <div className="flex flex-row flex-wrap justify-center gap-8 text-sm font-semibold text-center text-gray-900 lg:justify-between">
               <div className="flex flex-col items-center justify-center w-36 py-6">
                 <h2 className="title-font font-medium sm:text-4xl text-3xl]">
