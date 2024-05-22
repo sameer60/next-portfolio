@@ -6,7 +6,7 @@ const Uses = () => {
   return (
     <section className="text-gray-600 h-full body-font bg-white">
       <div className="container px-5 py-24 mx-auto">
-        <h1 className=" text-center text-3xl dark:text-gray-700 md:text-5xl text-gray-800  font-bold tracking-tight">
+        <h1 className=" text-center text-3xl md:text-5xl text-gray-800  font-bold tracking-tight">
           Uses
         </h1>
         <p className="max-w-4xl mx-auto my-6 text-center text-lg text-gray-600 text-balance">
@@ -14,7 +14,7 @@ const Uses = () => {
           <Link
             href="https://uses.tech/"
             target="_blank"
-            className=" underline font-semibold"
+            className="underline font-semibold"
           >
             uses.tech
           </Link>

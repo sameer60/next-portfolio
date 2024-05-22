@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Swal from "sweetalert2";
 const Projects = () => {
   return (
     <>
@@ -16,7 +15,7 @@ const Projects = () => {
           </div>
           <div className="-m-4 flex flex-wrap">
             <div className="p-4 w-full md:w-1/2">
-              <div className="h-full bg-white overflow-hidden shadow-xl hover:-translate-y-1 transition cursor-pointer rounded-lg">
+              <div className="bg-white overflow-hidden shadow-xl hover:-translate-y-1 transition cursor-pointer rounded-lg">
                 <Link href="https://sameer-job-app.vercel.app/" target="_blank">
                   <div className="mockup-browser border bg-base-300">
                     <div className="mockup-browser-toolbar">
@@ -36,7 +35,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="p-4 w-full md:w-1/2">
-              <div className="h-full bg-white overflow-hidden shadow-xl hover:-translate-y-1 transition cursor-pointer rounded-lg">
+              <div className="bg-white overflow-hidden shadow-xl hover:-translate-y-1 transition cursor-pointer rounded-lg">
                 <Link
                   href="https://get-current-weather.vercel.app/"
                   target="_blank"

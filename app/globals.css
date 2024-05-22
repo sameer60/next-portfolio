@@ -33,6 +33,7 @@ html{
 }
 body {
   user-select: none;
+  background-color: white;
 }
 /* For WebKit browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
